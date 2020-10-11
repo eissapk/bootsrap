@@ -1,0 +1,352 @@
+.upper-bar {
+  background-color: #08526d;
+  color: #fff;
+  text-align: center;
+}
+
+.upper-bar span {
+  color: #bfc6c9;
+}
+
+.upper-bar .get-quote {
+  border: 1px solid #fff;
+  padding: 2px 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar .navbar-brand span {
+  color: #08526d;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar .navbar-brand span:last-of-type {
+  color: #ec1c23;
+  font-weight: normal;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.navbar .nav-item.active .nav-link {
+  color: #ec1c23 !important;
+}
+
+.slider {
+  background-color: #ddd;
+}
+
+.slider #carouselExampleCaptions {
+  height: 100%;
+}
+
+.slider #carouselExampleCaptions .carousel-inner {
+  height: 100%;
+  position: relative;
+}
+
+.slider #carouselExampleCaptions .carousel-inner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.slider #carouselExampleCaptions .carousel-inner .overlay h1 {
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0;
+  max-width: 600px;
+  line-height: 55px;
+}
+
+.slider #carouselExampleCaptions .carousel-inner .overlay h1 span {
+  background-color: #ec1c23;
+  padding: 0 10px 7px 10px;
+}
+
+.slider #carouselExampleCaptions .carousel-inner .carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.slider #carouselExampleCaptions .carousel-inner .carousel-item.carousel-one {
+  background-image: url("img/01.jpg");
+}
+
+.slider #carouselExampleCaptions .carousel-inner .carousel-item.carousel-two {
+  background-image: url("img/02.jpg");
+}
+
+.slider #carouselExampleCaptions .carousel-inner .carousel-item.carousel-three {
+  background-image: url("img/03.jpg");
+}
+
+.features .row > div i {
+  background-color: #ec1c23;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.features .row > div h3 {
+  color: #08526d;
+}
+
+.features .row > div p {
+  color: #666;
+}
+
+.overview {
+  background-color: #f8f8f8;
+}
+
+.overview .container p {
+  color: #666;
+}
+
+.overview .container button {
+  background-color: #ec1c23;
+}
+
+.featured-work .container ul {
+  border: 1px solid #08526d;
+}
+
+.featured-work .container ul li {
+  border-left: 1px solid #08526d;
+  text-transform: capitalize;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.featured-work .container ul li:first-of-type {
+  border-left: 0;
+}
+
+.featured-work .container ul li.active {
+  background-color: #ec1c23;
+  color: #fff;
+}
+
+.featured-work .gallery .row {
+  margin: 0;
+}
+
+.featured-work .gallery .row > div {
+  padding: 0;
+}
+
+.featured-work .gallery .row > div img {
+  width: 100%;
+}
+
+.blogs {
+  background-color: #f8f8f8;
+}
+
+.blogs .container .row .card {
+  margin: 10px auto;
+  padding: 0;
+}
+
+.blogs .container .row .card .card-body .card-title {
+  color: #08526d !important;
+}
+
+.testimonials {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("img/testimonials.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/testimonials.jpg") no-repeat center/cover;
+  height: 500px;
+  position: relative;
+}
+
+.testimonials #carouselExampleIndicators {
+  height: 100%;
+  position: relative;
+}
+
+.testimonials #carouselExampleIndicators .carousel-inner {
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.testimonials #carouselExampleIndicators .carousel-inner .carousel-item {
+  color: #fff;
+}
+
+.testimonials #carouselExampleIndicators .carousel-inner .carousel-item img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.testimonials #carouselExampleIndicators .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.pricing-table {
+  background-color: #f8f8f8;
+}
+
+.pricing-table .table {
+  background-color: #fff;
+}
+
+.pricing-table .table.active h1 {
+  background-color: #ec1c23;
+  color: #fff;
+}
+
+.pricing-table .table.active button {
+  background-color: #08526d;
+  border-color: #08526d;
+}
+
+.pricing-table .table h3 {
+  color: #08526d;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.pricing-table .table h1 {
+  color: #08526d;
+}
+
+.pricing-table .table h1 span {
+  font-size: 16px;
+}
+
+.pricing-table .table button {
+  background-color: #ec1c23;
+}
+
+.whyChooseUs .row > div:first-of-type {
+  background: url("img/why.jpg") no-repeat center/cover;
+  height: 500px;
+}
+
+.whyChooseUs .row > div:last-of-type {
+  background-color: #08526d;
+  color: #fff;
+}
+
+.whyChooseUs .row > div:last-of-type button {
+  background-color: #ec1c23;
+}
+
+.statistics {
+  background-color: #f8f8f8;
+}
+
+.statistics .row > div i {
+  color: #08526d;
+}
+
+.statistics .row > div h3 {
+  color: #08526d;
+}
+
+.statistics .row > div p {
+  color: #ec1c23;
+}
+
+.contact-us {
+  background-color: #ec1c23;
+}
+
+.contact-us .row > div {
+  margin-bottom: 10px;
+}
+
+.contact-us .row > div button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer .row:first-of-type > div {
+  margin-top: 20px;
+}
+
+.footer .row:first-of-type > div:first-of-type {
+  margin-top: 0;
+}
+
+.footer .row:first-of-type > div:first-of-type span {
+  color: #08526d;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer .row:first-of-type > div:first-of-type span:last-of-type {
+  color: #ec1c23;
+  font-weight: normal;
+}
+
+.footer .row:first-of-type > div:first-of-type a {
+  color: #08526d;
+}
+
+.footer .row:first-of-type > div:nth-last-of-type(2) h5 {
+  color: #08526d;
+}
+
+.footer .row:first-of-type > div:nth-last-of-type(2) ul li {
+  color: #08526d;
+  font-size: 0.9em;
+  line-height: 30px;
+}
+
+.footer .row:first-of-type > div:nth-last-of-type(2) ul li a {
+  color: #08526d;
+}
+
+.footer .row:first-of-type > div:last-of-type h5 {
+  color: #08526d;
+}
+
+.footer .row:first-of-type > div:last-of-type ul {
+  line-height: 30px;
+}
+
+.copyright {
+  border-top: 1px solid #bfc6c9;
+  background-color: #f8f8f8;
+}
+
+.copyright ul li a i {
+  color: #08526d;
+}
+
+@media (min-width: 768px) {
+  .pricing-table .table.active {
+    position: relative;
+    top: -20px !important;
+  }
+}
+/*# sourceMappingURL=app.css.map */
